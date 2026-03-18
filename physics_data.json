@@ -18,3 +18,22 @@
   ]
 }
 
+
+    {
+      "quantity": "Reflecting Surface (Laws)",
+      "formula": "Angle i = Angle r",
+      "dimension": "The first law states the incident ray, reflected ray, and normal lie in the same plane. The second law states the angle of incidence equals the angle of reflection."
+    },
+    {
+      "quantity": "Reflecting Surface (Regular)",
+      "formula": "Specular Reflection",
+      "dimension": "Occurs on highly smooth surfaces like mirrors. Light rays remain parallel after reflection, creating a clear and sharp image."
+    },
+    {
+      "quantity": "Reflecting Surface (Diffuse)",
+      "formula": "Scattered Reflection",
+      "dimension": "Occurs on rough surfaces. While each individual ray follows the law of reflection, the surface irregularities scatter light in many directions."
+    }
+  ]
+}
+
