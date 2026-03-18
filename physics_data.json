@@ -1,6 +1,74 @@
 {
   "entries": [
     {
+      "quantity": "Electrostatic Potential (V)",
+      "formula": "V = W / q",
+      "dimension": "[M1 L2 T-3 A-1]",
+      [span_1](start_span)[span_2](start_span)[span_3](start_span)"remark": "Work done per unit test charge in bringing it from infinity to a point[span_1](end_span)[span_2](end_span)[span_3](end_span)."
+    },
+    {
+      "quantity": "Potential due to a Point Charge",
+      "formula": "V(r) = Q / (4πε₀r)",
+      "dimension": "Volts (V)",
+      [span_4](start_span)[span_5](start_span)"remark": "Potential at a distance r from a point charge Q. Potential is zero at infinity[span_4](end_span)[span_5](end_span)."
+    },
+    {
+      "quantity": "Potential due to an Electric Dipole",
+      "formula": "V = (p cos θ) / (4πε₀r²)",
+      "dimension": "Volts (V)",
+      [span_6](start_span)"remark": "Potential depends on the angle θ between the position vector r and dipole moment p[span_6](end_span)."
+    },
+    {
+      "quantity": "Relation between Field and Potential",
+      "formula": "E = -dV / dl",
+      "dimension": "V/m",
+      "remark": "Electric field is in the direction where potential decreases steepest. [span_7](start_span)Its magnitude is the change in potential per unit displacement[span_7](end_span)."
+    },
+    {
+      "quantity": "Potential Energy of Two Charges",
+      "formula": "U = (q₁q₂) / (4πε₀r₁₂)",
+      "dimension": "Joules (J)",
+      [span_8](start_span)[span_9](start_span)"remark": "Work stored in assembling two charges q₁ and q₂ at a distance r₁₂ apart[span_8](end_span)[span_9](end_span)."
+    },
+    {
+      "quantity": "Capacitance (C)",
+      "formula": "C = Q / V",
+      "dimension": "[M-1 L-2 T-4 A2]",
+      [span_10](start_span)[span_11](start_span)"remark": "Ratio of charge Q on a conductor to the potential difference V. Unit is Farad (F)[span_10](end_span)[span_11](end_span)."
+    },
+    {
+      "quantity": "Parallel Plate Capacitor",
+      "formula": "C = ε₀A / d",
+      "dimension": "Farad (F)",
+      [span_12](start_span)"remark": "A is the area of plates and d is the separation between them (for vacuum)[span_12](end_span)."
+    },
+    {
+      "quantity": "Capacitance with Dielectric",
+      "formula": "C = KC₀",
+      "dimension": "Farad (F)",
+      [span_13](start_span)"remark": "Capacitance increases by a factor of K (dielectric constant) when the medium is filled with a dielectric[span_13](end_span)."
+    },
+    {
+      "quantity": "Capacitors in Series",
+      "formula": "1/C = 1/C₁ + 1/C₂ + 1/C₃ + ...",
+      "dimension": "Farad (F)",
+      [span_14](start_span)[span_15](start_span)"remark": "The reciprocal of equivalent capacitance is the sum of the reciprocals of individual capacitances[span_14](end_span)[span_15](end_span)."
+    },
+    {
+      "quantity": "Capacitors in Parallel",
+      "formula": "C = C₁ + C₂ + C₃ + ...",
+      "dimension": "Farad (F)",
+      [span_16](start_span)[span_17](start_span)"remark": "The total capacitance is the sum of the individual capacitances[span_16](end_span)[span_17](end_span)."
+    },
+    {
+      "quantity": "Energy Stored in a Capacitor",
+      "formula": "U = (1/2)QV = (1/2)CV² = Q² / (2C)",
+      "dimension": "Joules (J)",
+      [span_18](start_span)[span_19](start_span)"remark": "Energy stored in the electric field between the plates of a charged capacitor[span_18](end_span)[span_19](end_span)."
+    }
+  ]
+}
+
       "quantity": "Reflecting Surface (Laws)",
       "formula": "Angle i = Angle r",
       "dimension": "The first law states the incident ray, reflected ray, and normal lie in the same plane. The second law states the angle of incidence equals the angle of reflection."
