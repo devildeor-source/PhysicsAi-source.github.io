@@ -4,13 +4,19 @@
       "quantity": "Electrostatic Shielding",
       "formula": "E = 0 (Inside cavity)",
       "dimension": "N/A",
-      "remark": "The electric field inside a cavity of a conductor is zero. This protects sensitive instruments from external electrical noise. This is why it is safe to sit inside a car during lightning."
+      "remark": "The electric field inside a cavity of a conductor is zero. This protects sensitive instruments from external electrical noise. This is why a car is a safe place during lightning."
     },
     {
       "quantity": "Electrostatic Potential (V)",
       "formula": "V = W / q",
       "dimension": "[M1 L2 T-3 A-1]",
       "remark": "Work done per unit test charge in bringing it from infinity to a point. Scalar quantity."
+    },
+    {
+      "quantity": "Potential due to a Point Charge",
+      "formula": "V(r) = Q / (4πε₀r)",
+      "dimension": "Volts (V)",
+      "remark": "Potential decreases as 1/r. Positive for +Q, negative for -Q."
     },
     {
       "quantity": "Capacitance (C)",
@@ -25,28 +31,22 @@
       "remark": "Capacitance for two plates of area A separated by distance d. K increases capacitance."
     },
     {
-      "quantity": "Potential due to a Point Charge",
-      "formula": "V(r) = Q / (4πε₀r)",
-      "dimension": "Volts (V)",
-      "remark": "Potential decreases as 1/r. Positive for +Q, negative for -Q."
-    },
-    {
       "quantity": "Equipotential Surface",
       "formula": "V = Constant",
       "dimension": "N/A",
       "remark": "A surface where potential is same everywhere. No work is done moving a charge here."
     },
     {
-      "quantity": "Capacitors in Series",
-      "formula": "1/C = 1/C₁ + 1/C₂",
-      "dimension": "Farad (F)",
-      "remark": "Charge Q is same on each. Total capacitance decreases."
+      "quantity": "Relation between Field and Potential",
+      "formula": "E = -dV / dr",
+      "dimension": "V/m",
+      "remark": "Electric field is in the direction of steepest decrease of potential."
     },
     {
-      "quantity": "Capacitors in Parallel",
-      "formula": "C = C₁ + C₂",
-      "dimension": "Farad (F)",
-      "remark": "Voltage V is same on each. Total capacitance increases."
+      "quantity": "Energy Stored in Capacitor",
+      "formula": "U = (1/2)CV²",
+      "dimension": "Joules (J)",
+      "remark": "Energy is stored in the electric field between the plates."
     }
   ]
 }
