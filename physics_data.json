@@ -1,85 +1,106 @@
 {
   "entries": [
     {
-      "quantity": "Electrostatic Potential (V)",
-      "formula": "V = W / q",
+      "quantity": "Conservative Forces",
+      "formula": "Work done is path-independent",
+      "dimension": "Examples: Spring force, Gravitational force, Coulomb force",
+      [span_1](start_span)[span_2](start_span)"remark": "Work done in moving a body between two points depends only on the initial and final positions[span_1](end_span)[span_2](end_span)."
+    },
+    {
+      "quantity": "Electrostatic Potential Energy Difference",
+      "formula": "ΔU = Up - UR = WRP",
+      "dimension": "Joules (J)",
+      [span_3](start_span)"remark": "Work required by an external force to move charge q from R to P without acceleration[span_3](end_span)."
+    },
+    {
+      "quantity": "Electrostatic Potential (V) Definition",
+      "formula": "V = Work Done / Unit Charge",
       "dimension": "[M1 L2 T-3 A-1]",
-      "remark": "Work done per unit test charge in bringing it from infinity to a point."
+      [span_4](start_span)[span_5](start_span)"remark": "Work done in bringing a unit positive charge from infinity to a point[span_4](end_span)[span_5](end_span)."
     },
     {
       "quantity": "Potential due to a Point Charge",
       "formula": "V(r) = Q / (4πε₀r)",
       "dimension": "Volts (V)",
-      "remark": "Potential at a distance r from a point charge Q. Potential is zero at infinity."
+      [span_6](start_span)"remark": "Calculated by integrating work done from infinity to distance r[span_6](end_span)."
     },
     {
       "quantity": "Potential due to an Electric Dipole",
       "formula": "V = (p cos θ) / (4πε₀r²)",
       "dimension": "Volts (V)",
-      "remark": "Potential depends on the angle θ between the position vector r and dipole moment p."
+      "remark": "Valid for r >> a. Potential falls off as 1/r² compared to 1/r for a single charge."
+    },
+    {
+      "quantity": "Equipotential Surface",
+      "formula": "V = constant",
+      "dimension": "N/A",
+      "remark": "A surface with a constant value of potential at all points. [span_7](start_span)No work is done moving a charge on this surface[span_7](end_span)."
     },
     {
       "quantity": "Relation between Field and Potential",
       "formula": "E = -dV / dl",
-      "dimension": "V/m",
-      "remark": "Electric field is in the direction where potential decreases steepest. Its magnitude is the change in potential per unit displacement."
+      "dimension": "V/m or N/C",
+      [span_8](start_span)"remark": "Electric field is in the direction where potential decreases steepest[span_8](end_span)."
     },
     {
       "quantity": "Potential Energy of Two Charges",
-      "formula": "U = (q₁q₂) / (4πε₀r₁₂)",
+      "formula": "U = (1 / 4πε₀) * (q₁q₂ / r₁₂)",
       "dimension": "Joules (J)",
-      "remark": "Work stored in assembling two charges q₁ and q₂ at a distance r₁₂ apart."
+      [span_9](start_span)"remark": "Work stored in assembling two charges q₁ and q₂ at distance r₁₂[span_9](end_span)."
+    },
+    {
+      "quantity": "Potential Energy of Dipole in External Field",
+      "formula": "U(θ) = -p . E = -pE cos θ",
+      "dimension": "Joules (J)",
+      [span_10](start_span)"remark": "Energy is minimum (stable equilibrium) when dipole is parallel to the field[span_10](end_span)."
+    },
+    {
+      "quantity": "Electrostatics of Conductors",
+      "formula": "E = 0 (Inside)",
+      "dimension": "N/A",
+      [span_11](start_span)[span_12](start_span)"remark": "Field is zero inside; net charge resides only on the surface; potential is constant throughout[span_11](end_span)[span_12](end_span)."
+    },
+    {
+      "quantity": "Electrostatic Shielding",
+      "formula": "E = 0 inside cavity",
+      "dimension": "N/A",
+      [span_13](start_span)"remark": "A cavity in a conductor is shielded from outside electrical influence[span_13](end_span)."
+    },
+    {
+      "quantity": "Dielectrics and Polarisation",
+      "formula": "P = Dipole moment / Volume",
+      "dimension": "[L-2 AT]",
+      [span_14](start_span)[span_15](start_span)"remark": "Dielectrics are non-conductors; external fields induce a net dipole moment[span_14](end_span)[span_15](end_span)."
     },
     {
       "quantity": "Capacitance (C)",
       "formula": "C = Q / V",
       "dimension": "[M-1 L-2 T-4 A2]",
-      "remark": "Ratio of charge Q on a conductor to the potential difference V. Unit is Farad (F)."
+      "remark": "Unit is Farad (F). [span_16](start_span)[span_17](start_span)Ratio of charge to potential difference[span_16](end_span)[span_17](end_span)."
     },
     {
       "quantity": "Parallel Plate Capacitor",
       "formula": "C = ε₀A / d",
       "dimension": "Farad (F)",
-      "remark": "A is the area of plates and d is the separation between them (for vacuum)."
-    },
-    {
-      "quantity": "Capacitance with Dielectric",
-      "formula": "C = KC₀",
-      "dimension": "Farad (F)",
-      "remark": "Capacitance increases by a factor of K (dielectric constant) when the medium is filled with a dielectric."
+      "remark": "Valid for vacuum between plates. [span_18](start_span)[span_19](start_span)Capacitance increases by factor K with a dielectric[span_18](end_span)[span_19](end_span)."
     },
     {
       "quantity": "Capacitors in Series",
-      "formula": "1/C = 1/C₁ + 1/C₂ + 1/C₃ + ...",
+      "formula": "1/C = 1/C₁ + 1/C₂ + ...",
       "dimension": "Farad (F)",
-      "remark": "The reciprocal of equivalent capacitance is the sum of the reciprocals of individual capacitances."
+      [span_20](start_span)"remark": "The same charge Q flows through each capacitor[span_20](end_span)."
     },
     {
       "quantity": "Capacitors in Parallel",
-      "formula": "C = C₁ + C₂ + C₃ + ...",
+      "formula": "C = C₁ + C₂ + ...",
       "dimension": "Farad (F)",
-      "remark": "The total capacitance is the sum of the individual capacitances."
+      [span_21](start_span)[span_22](start_span)"remark": "The same potential difference V is across each capacitor[span_21](end_span)[span_22](end_span)."
     },
     {
-      "quantity": "Energy Stored in a Capacitor",
-      "formula": "U = (1/2)QV = (1/2)CV² = Q² / (2C)",
+      "quantity": "Energy Stored in Capacitor",
+      "formula": "U = (1/2)CV² = Q² / 2C",
       "dimension": "Joules (J)",
-      "remark": "Energy stored in the electric field between the plates of a charged capacitor."
-    },
-    {
-      "quantity": "Reflecting Surface (Laws)",
-      "formula": "Angle i = Angle r",
-      "dimension": "The first law states the incident ray, reflected ray, and normal lie in the same plane. The second law states the angle of incidence equals the angle of reflection."
-    },
-    {
-      "quantity": "Reflecting Surface (Regular)",
-      "formula": "Specular Reflection",
-      "dimension": "Occurs on highly smooth surfaces like mirrors. Light rays remain parallel after reflection, creating a clear and sharp image."
-    },
-    {
-      "quantity": "Reflecting Surface (Diffuse)",
-      "formula": "Scattered Reflection",
-      "dimension": "Occurs on rough surfaces. While each individual ray follows the law of reflection, the surface irregularities scatter light in many directions."
+      [span_23](start_span)[span_24](start_span)"remark": "Work done to charge the capacitor is stored in the electric field[span_23](end_span)[span_24](end_span)."
     }
   ]
 }
